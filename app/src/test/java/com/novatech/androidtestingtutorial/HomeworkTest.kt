@@ -8,7 +8,7 @@ class HomeworkTest{
     @Test
     fun `correct input returns correct result`() {
         val result = Homework.fib(5)
-        assertThat(result).isEqualTo(3)
+        assertThat(result).isEqualTo(5)
     }
 
     @Test
