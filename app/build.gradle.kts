@@ -46,6 +46,7 @@ dependencies {
     testImplementation("junit:junit:4.12")
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    androidTestImplementation("com.google.truth:truth:1.4.4")
 
     // https://mvnrepository.com/artifact/com.google.truth/truth
     testImplementation("com.google.truth:truth:1.4.4")
